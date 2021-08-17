@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    left: 0;
+    top: 0;
+    
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(216,223,234)
+}
+
+#form{
+    width: 40%;
+    margin: 10% auto ;    
+    align-items: center;
+    text-align: justify;
+    background-color: #fff;
+    padding: 10px 0;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #3b5998;
+    
+}
+
+.cabecera{
+    width: 100%;
+    margin: auto;
+    border-bottom: 2px solid rgb(216, 223, 234);
+}
+
+.cabecera #hdr-form{
+    width: 90%;
+    padding: 10px 22px
+}
+
+#hdr-form h1,h4{
+    padding: 2px;
+
+}
+
+.cuerpo{
+    width: 100%;
+    margin: auto;
+    padding:15px 0;
+}
+.fila{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    padding:5px;
+}
+
+.fila #nombre,#apellido{
+    width: 49%;
+    background-color: rgba(216, 223, 234, 0.4);
+    border: 1px solid rgb(216, 223, 234);
+    border-radius: 5px;
+    padding: 5px;
+}
+
+#fila-mail #correo-tel,#password{
+    width: 100%;
+    background-color: rgba(216, 223, 234, 0.4);
+    border: 1px solid rgb(216, 223, 234);
+    border-radius: 5px;
+    padding: 5px;
+}
+
+#fila-nac{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    text-align: left;
+}
+
+#fila-nac #titulo-fNac{
+    width: 100%;
+    padding: 10px;
+}
+
+#opciones-fNac {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    justify-content: space-around
+    
+}
+
+#opciones-fNac #dNac,#mNac,#aNac{
+    width: 32%;
+    border: 1px solid rgb(216, 223, 234);
+    border-radius: 5px;
+    padding: 5px;
+    font-size:13px;
+}
+
+#fila-sexo{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    text-align: left;
+}
+
+#fila-sexo #titulo-sexo{
+    width: 100%;
+    padding: 10px;
+}
+
+#opciones-sexo {
+    width: 98%;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    justify-content:space-between;
+    align-items: center;
+}
+
+
+#opciones-sexo>label{
+    border:1px solid black;
+    width: 32%;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    border: 1px solid rgb(216, 223, 234);
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 13px;
+}
+
+#fila-terminos{
+    width: 90%;
+    text-align: justify;
+    padding: 15px 5px;
+    font-size: 12px;
+}
+
+#fila-terminos a{
+    color: blue;
+    text-decoration: none;
+}
+
+#fila-terminos a:hover{
+    text-decoration: underline;
+}
+
+#fila-enviar{
+    width: 90%;
+    display:flex;
+    justify-content: center;
+}
+#fila-enviar .btn{
+    width:50%;
+    background-color:#00A400;
+    border-radius: 5px;
+    padding: 5px;
+    color:white;
+    border: none;
+    font-size: 16px;
+}
+
+ .btn:hover{
+    background: linear-gradient(360deg, #005800, #00a40000);
+}
+
+
+
+
+
+
+
